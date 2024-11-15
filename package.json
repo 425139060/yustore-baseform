@@ -1,0 +1,34 @@
+{
+  "name": "yustore-base-form-v2",
+  "version": "0.1.5",
+  "description": "vue2.x+element-表单组件",
+  "author": "王涛",
+  "private": false,
+  "main": "base-form/base-form.umd.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name base-form --dest base-form ./src/plugins/index.js"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.25.6",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "core-js": "^3.8.3",
+    "element-ui": "^2.15.14",
+    "lodash": "^4.17.21",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "Chrome 40.0",
+    "ie >= 9"
+  ]
+}
